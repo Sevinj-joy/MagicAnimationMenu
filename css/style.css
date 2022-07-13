@@ -15,6 +15,7 @@ body{
     min-height:100vh;
     background:var(--clr);
 }
+/* Navigation section */
 .navigation{
     width: 400px;
     height: 70px;
@@ -35,7 +36,6 @@ body{
     width: 70px;
     height: 70px;
     z-index: 1;
-
 }
 .navigation ul li a{
     position: relative;
