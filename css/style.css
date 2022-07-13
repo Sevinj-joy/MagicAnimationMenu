@@ -13,5 +13,23 @@ body{
     justify-content:center;
     align-items:center;
     min-height:100vh;
-    background:var(--clr)
+    background:var(--clr);
+}
+.navigation{
+    width: 400px;
+    height: 70px;
+    background: #fff;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.navigation ul{
+    display: flex;
+    width: 350px;
+}
+.navigation ul li{
+    position: relative;
+    list-style: none;
 }
