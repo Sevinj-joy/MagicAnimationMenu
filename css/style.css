@@ -67,4 +67,29 @@ body{
     letter-spacing: 0.05em;
     transition: 0.5s;
     opacity: 0;
+    transform: translateY(20px);
+}
+.navigation ul li:hover a .text{
+    opacity: 1;
+    transform: translateY(10px);
+}
+.indicator{
+    width: 70px;
+    height: 70px;
+    background-color: aquamarine;
+    position: absolute;
+    top: -50%;
+    border-radius: 50%;
+    border: 6px solid var(--clr);
+    transform: 0.5s;
+}
+.indicator::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -20px;
+    width: 20px;
+    height: 20px;
+    border-top-right-radius:20px;
+    background-color: red;
 }
